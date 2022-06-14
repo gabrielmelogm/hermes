@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  server:
+    container_name: "hermes"
+    build: .
+    ports:
+      - 3333:3333
+    volumes:
+      - ./src:/app/src
