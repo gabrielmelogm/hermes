@@ -13,6 +13,7 @@ yarn test
 ## 🚀 Stacks
 - Node
 - Docker
+- Typescript
 
 ## ⚙️ Tools
 - Express
