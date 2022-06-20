@@ -5,6 +5,11 @@ An a simple function to send email
 ```bash
 yarn start
 ```
+
+## 🔬 Run tests
+```bash
+yarn test
+```
 ## 🚀 Stacks
 - Node
 - Docker
