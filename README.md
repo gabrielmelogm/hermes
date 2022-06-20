@@ -18,3 +18,4 @@ yarn test
 - Express
 - Nodemon
 - Nodemailer
+- Jest
