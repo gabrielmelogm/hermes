@@ -7,6 +7,8 @@ WORKDIR /app
 COPY package*.json yarn.lock ./
 RUN yarn
 
-COPY . .
+COPY .env ./.env
+COPY src ./src
+COPY test ./test
 
-RUN yarn start
+CMD ["yarn", "start"]
