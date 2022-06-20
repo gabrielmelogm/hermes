@@ -5,9 +5,11 @@ config();
 const app = express();
 
 app.get("/", (req, res) => {
-  return res.send("Hello World");
+  return res.status(200).send("Hello World");
 });
 
 app.listen(process.env.PORT, () =>
-  console.log(`Server is running on port ${process.env.PORT} 🚀 `)
+  console.log(
+    `Server is running on ${process.env.API_URL}${process.env.PORT} 🚀 `
+  )
 );
